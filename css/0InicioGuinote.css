@@ -1,48 +1,14 @@
 @charset "UTF-8";
 
-.main1{
-	height:auto;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.7)), url(../images/cards_background.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 8%;
-	width: -webkit-fill-available;
-	background-attachment: fixed;
-	font-family: system-ui;
-	color: white;
-}
-
-.principal{
-	height:100vh;
-	justify-content: center;
-	display: flex;
-	align-items: center;
-	/*padding-top: 80px; Si quieres que no tape el cuerpo*/
-}
-
-.principal h1{
-	color: #ffffff;
-	font-size: 45px;
-	letter-spacing: 2px;
-	font-family: sans-serif;
-}
-.principal h3{
-	color: #ffffff;
-	margin-bottom: 30px;
-	font-size: 20px;
-	font-family: sans-serif;
-}
 
 .contenedor{
-	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding-bottom: 50px;
 }
 
-.botonPelis{
+.botones{
 	display: grid;
     align-content: center;
     padding-bottom: 70px;
@@ -51,7 +17,7 @@
     justify-items: center;
 }
 
-.botonPelis button{
+.botones button{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), linear-gradient(to bottom, #434598, #3b3b80);
 	border: none;
     color: white;
@@ -67,7 +33,7 @@
     margin-bottom: 30px;
 }
 
-.botonPelis button:hover {
+.botones button:hover {
   background-color: #008CBA;
   color: white;
 }
@@ -79,6 +45,7 @@ form {
     text-align: center;
     padding: 20px 25px;
     box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+    margin-top: 2%;
 }
 
 form .title {
