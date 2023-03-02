@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+	height:auto;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0,0.0)), url(../images/disegnoTable/table0.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 8%;
+	width: -webkit-fill-available;
+	background-attachment: fixed;
+	font-family: system-ui;
+	color: white;
+}

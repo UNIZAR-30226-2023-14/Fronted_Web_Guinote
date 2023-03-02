@@ -35,6 +35,7 @@ buttonLogin.addEventListener('click', (e) => {
     }
 
     console.log(data)
+    window.location.href = 'guinote.html';
 })
 
 buttonSingIn.addEventListener('click', (e) => {
@@ -46,4 +47,5 @@ buttonSingIn.addEventListener('click', (e) => {
     }
 
     console.log(data)
+    window.location.href = 'guinote.html';
 })
