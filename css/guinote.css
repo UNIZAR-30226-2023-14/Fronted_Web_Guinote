@@ -12,3 +12,121 @@ body{
 	font-family: system-ui;
 	color: white;
 }
+
+.menuPrincipal{
+	width: -webkit-fill-available;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.optionsInitials{
+	width: -webkit-fill-available;
+	display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+	margin-left: 3%;
+    margin-right: 4%;
+}
+
+.botonsuperiorIzq{
+	order: 1;
+}
+
+.botonsuperiorIzq img{
+	max-width: 140px;
+	max-height: 140px;
+}
+
+.botonsuperiorIzq button {
+	display: inline-block;
+	border-radius: 100%;
+	background-color: #202049;
+	padding: 6%;
+	text-align: center;
+}
+
+
+.botonsuperiorIzq button img{
+	max-width: 40px;
+	max-height: 40px;
+}
+
+.logoMain{
+	margin-right: 3%;
+	order: 2;
+	margin-top: -2%;
+}
+
+.logoMain img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.botonsuperiorDer{
+	order: 3;
+	padding-right: 4%;
+}
+
+.botonsuperiorDer button {
+	display: inline-block;
+	border-radius: 100%;
+	background-color: #202049;
+	padding: 20%;
+	text-align: center;
+  }
+
+.botonsuperiorDer img{
+	max-width: 40px;
+	max-height: 40px;
+}
+
+
+
+
+
+
+.indicadorPantalla{
+	font-family: monospace;
+    color: #ffffff;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.options{
+	display: flex;
+	margin-top: 2%;
+	justify-content: center;
+    align-items: center;
+}
+
+.listaoptions{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.listaoptions img{
+	max-width: 180px;
+	max-height: 180px;
+}
+
+.listaoptions button{
+	background-color: #202049;
+	font-size:larger;
+}
+
+.listaoptions li{
+	margin: 0% 5% 0% 5%;
+}
+
+.listaoptions button{
+	display: inline-grid;
+	color:white;
+}
